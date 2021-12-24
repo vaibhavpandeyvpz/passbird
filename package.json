@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "description": "Free, open-source client or server-side APIs to \"lint\" user input.",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "0.0.0"
+}
