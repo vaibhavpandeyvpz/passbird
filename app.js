@@ -1,4 +1,4 @@
-const debug = require('debug')('passbird:server');
+const debug = require('debug')('passbird:app');
 const Koa = require('koa');
 const cors = require('@koa/cors');
 const routes = require('./routes');
@@ -21,6 +21,4 @@ app.use(async (ctx, next) => {
 app.use(cors());
 app.use(routes.middleware());
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => debug(`Listening on ${port}...`));
+module.exports = app;
