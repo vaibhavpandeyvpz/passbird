@@ -7,6 +7,19 @@ const zxcvbn = require('zxcvbn');
 const routes = router();
 
 routes.route({
+  method: 'get',
+  path: '/',
+  async handler(ctx) {
+    ctx.status = 200;
+    ctx.body = {
+      '/': ['GET'],
+      '/email': ['POST'],
+      '/password': ['POST'],
+    };
+  },
+});
+
+routes.route({
   method: 'post',
   path: '/email',
   validate: {
