@@ -1,17 +1,27 @@
 {
   "dependencies": {
-    "koa": "^2.13.4"
+    "@koa/cors": "^3.1.0",
+    "debug": "^4.3.3",
+    "disposable-email-domains": "^1.0.59",
+    "free-email-domains": "^1.0.20",
+    "joi": "^17.5.0",
+    "koa": "^2.13.4",
+    "koa-joi-router": "^8.0.0",
+    "zxcvbn": "^4.4.2"
   },
   "description": "Free, open-source client or server-side APIs to \"lint\" user input.",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8.5.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.15"
   },
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:dev": "cross-env DEBUG=passbird:* nodemon index.js"
   },
   "version": "0.0.0"
 }
