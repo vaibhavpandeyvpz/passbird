@@ -22,7 +22,7 @@ yarn start:dev
 ### Usage
 
 The two endpoints included are as follows.
-You can also refer to the included [Postman](https://www.postman.com/) collection [here](postman/Passbird.postman_collection.json) for examples.
+You can also refer to the included [Postman](https://www.postman.com/) collection [here](Passbird.postman_collection.json) for examples.
 
 | Method | Path        | Description               |
 |--------|-------------|---------------------------|
