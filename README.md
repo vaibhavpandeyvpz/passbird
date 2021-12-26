@@ -6,9 +6,10 @@ strength for a given password on a scale of `1` to `5`.
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vaibhavpandeyvpz/passbird/Node.js%20CI)
 ![Codecov](https://img.shields.io/codecov/c/github/vaibhavpandeyvpz/passbird)
+![Codacy grade](https://img.shields.io/codacy/grade/2b0925f643db4e5ea9d2436e46f11f08)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/vaibhavpandeyvpz/passbird)
 
-### Installation
+## Installation
 
 Make sure you have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed on your workstation.
 Clone or download the repository and run below commands in project folder:
@@ -23,7 +24,7 @@ yarn start:dev
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### Usage
+## Usage
 
 The two endpoints included are as follows.
 You can also refer to the included [Postman](https://www.postman.com/) collection [here](Passbird.postman_collection.json) for examples.
@@ -43,6 +44,6 @@ curl -X POST -d "email=contact@vaibhavpandey.com" https://passbird.herokuapp.com
 curl -X POST -d "password=Testing123" https://passbird.herokuapp.com/password
 ```
 
-### License
+## License
 
 See [LICENSE](LICENSE) file.
