@@ -1,8 +1,12 @@
 # passbird
 
-Free, open-source client or server-side APIs to "lint" user input.
+Free, open-source client or server-side APIs to _lint_ user input.
 Right now, you can check type for an email address i.e., either of `disposable`, `free` or `business` and determine
 strength for a given password on a scale of `1` to `5`.
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vaibhavpandeyvpz/passbird/Node.js%20CI)
+![Codecov](https://img.shields.io/codecov/c/github/vaibhavpandeyvpz/passbird)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/vaibhavpandeyvpz/passbird)
 
 ### Installation
 
